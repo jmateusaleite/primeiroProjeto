@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/*Define uma mesma fonte para toda página*/
+*{
+    font-family:'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+/*cabeçalho*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilizando o cabeçaloh*/
+header{
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+    text-transform: uppercase;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+/*Estilizando imagem da home*/
+.imagem-home{
+    width: 100%;
+    margin-top: -200px;
+}
+
+/*Estilizado texto About*/
+.text-about{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.principal{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*Estilizando imagem about*/
+.imagem-about{
+    display: block;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/*Estilizando texto home*/
+.text-home{
+    padding: 20px 200px;
+}
+
+.text-home p{
+    text-align: justify;
+}
+
+/*Estilizando ilustração da home*/
+.imagem-ilustra{
+    width: 400px;
+    margin-left: 200px;
+}
+
+.musica{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.lista-musicas{
+    align-items: flex-end;
+    color: orange;
+    padding: 10px;    
+}
+
+.lista-musicas li{
+    text-decoration-color: black;
+}
+
+/*Estilizando Music*/
+.videos{
+    position: relative;
+    margin-top: 200px;
+    z-index: -1;
+}
+
+.video1{
+    margin-left: 20px;
+    height: 400px;
+    padding: 20px 0;
+    display: flex;
+}
+
+.video2{
+    width: 600px;
+    margin-left: 1200px;
+}
+
+.musicas-video1
+{
+    position: relative;
+    display: inline-block;
+    height: 400px;
+    
+}
+/*Estilizando formulario Contact*/
+main#contact{
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+main#contact form{
+    font-size: 24px;
+}
+
+main#contact form input{
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+main#contact form textarea{
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+main#contact form button{
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+main#contact .form-group{
+    margin-bottom: 15px;
+
+}
+
+#insta{
+    
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background: lightgrey;
+    height: 30px;
+}
