@@ -1,2 +1,2 @@
 # primeiroProjeto
-Primeiro projeto curso front end from Facebook by Digital House
+Primeiro projeto curso front end from Facebook by Digital House(Site Jane Doe)
