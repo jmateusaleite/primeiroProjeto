@@ -58,8 +58,6 @@ nav ul li a{
 /*Estilizando imagem about*/
 .imagem-about{
     display: block;
-    width: 600px;
-    height: 600px;
     margin: 0 auto;
 }
 
