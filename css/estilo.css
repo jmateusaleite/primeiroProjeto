@@ -159,6 +159,7 @@ main#contact .form-group{
 
 /*Rodapé*/
 footer{
+    align-content: bottom;
     text-align: center;
     background: lightgrey;
     height: 30px;
