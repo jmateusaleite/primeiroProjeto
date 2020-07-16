@@ -123,6 +123,7 @@ nav ul li a{
 main#contact{
     position: relative;
     margin-top: 200px;
+    z-index: -10;
 }
 
 main#contact form{
@@ -183,9 +184,19 @@ main#contact h2{
     float: left;
 }
 
+.contatos{
+    clear: left;
+    margin: 0px 50px;
+    z-index: -10;
+}
+
+.contatos .titulo{
+    font-weight: bold;
+}
 
 /*Rodapé*/
 footer{
+    width: 100%;
     text-align: center;
     background: lightgrey;
     height: 30px;
