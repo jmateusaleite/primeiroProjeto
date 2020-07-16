@@ -121,8 +121,7 @@ nav ul li a{
 }
 /*Estilizando formulario Contact*/
 main#contact{
-    width: 1000px;
-    margin: 0 auto;
+    position: relative;
     margin-top: 200px;
 }
 
@@ -143,24 +142,52 @@ main#contact form textarea{
 }
 
 main#contact form button{
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 20px;
-    margin: 20px 0px;
+    margin: 5px 0px;
+    background-color: red;
+    border-radius: 10mm;
 }
 
 main#contact .form-group{
     margin-bottom: 15px;
-
 }
 
-#insta{
-    
+main#contact .form-group-radio input{
+    width: 20px;
+    margin: 0;
+    padding: 0;
 }
+
+main#contact .form-group-radio #ytb{
+    margin-bottom: 30px;
+}
+
+main#contact .form-group-radio #newsletter{
+    margin-bottom: 40px;
+}
+
+main#contact h2{
+    margin-left: 2%;
+}
+
+#coluna1{
+    width: 800px;
+    margin: 0 2%;
+    float: left;
+}
+
+#coluna2{
+    width: 800px;
+    margin: 0 2%;
+    float: left;
+}
+
 
 /*Rodapé*/
 footer{
-    align-content: bottom;
     text-align: center;
     background: lightgrey;
     height: 30px;
+    clear: left;
 }
