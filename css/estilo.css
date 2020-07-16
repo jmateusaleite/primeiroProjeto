@@ -123,7 +123,7 @@ nav ul li a{
 main#contact{
     position: relative;
     margin-top: 200px;
-    z-index: -10;
+    /*z-index: -10;*/
 }
 
 main#contact form{
